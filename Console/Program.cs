@@ -28,7 +28,7 @@ namespace ConsoleUI
         private static void GetCarsByBrandIdTest()
         {
             CarManager carManager = new CarManager(new EfCarDal());
-            foreach (var car in carManager.GetCarsByBrandId(4))
+            foreach (var car in carManager.GetCarsByBrandId(4).Data)
             {
                 Console.WriteLine("Car Id: {0} -- Car Name: {1} -- Color Id: {2}", car.Id, car.Name, car.ColorId);
             }
@@ -37,11 +37,20 @@ namespace ConsoleUI
         private static void DBTest()
         {
             CarManager carManager = new CarManager(new EfCarDal());
-            foreach (var car in carManager.GetCarDetails())
+            var result = carManager.GetCarDetails();
+            if (result.Success ==true)
             {
-                Console.WriteLine("{1} brand {2} color {0} -- price: {3}", car.CarName ,car.BrandName, car.ColorName,
-                    car.DailyPrice);
+                foreach (var car in result.Data)
+                {
+                    Console.WriteLine("{1} brand {2} color {0} -- price: {3}", car.CarName, car.BrandName, car.ColorName,
+                        car.DailyPrice);
+                }
             }
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
+            
         }
     }
 }
