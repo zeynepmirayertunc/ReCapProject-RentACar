@@ -13,9 +13,46 @@ namespace ConsoleUI
 
         static void Main(string[] args)
         {
-            DBTest();
+            //DBTest();
             //GetCarsByBrandIdTest();
             //AddConditionsTest();
+            //RentalGetAllTest();
+            RentalAddTest();
+
+        }
+
+        private static void RentalAddTest()
+        {
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+
+            var result = rentalManager.Add(new Rental { Id = 3, CarId = 18, CustomerId = 3, RentDate = new DateTime(2021, 02, 07, 14, 30, 50), ReturnDate = null });
+            if (result.Success==true)
+            {
+                Console.WriteLine(result.Message);
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
+            
+        }
+
+        private static void RentalGetAllTest()
+        {
+            RentalManager rentalManager = new RentalManager(new EfRentalDal());
+            var result = rentalManager.GetAll();
+            if (result.Success == true)
+            {
+                foreach (var rentcar in result.Data)
+                {
+                    Console.WriteLine("{0} Numaralı Araba {1} numaralı müşteri tarafından {2} tarihinde kiralanmış olup" +
+                        " {3} tarihinde kuruma teslim edilmiştir.", rentcar.CarId, rentcar.CustomerId, rentcar.RentDate, rentcar.ReturnDate);
+                }
+            }
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
         }
 
         private static void AddConditionsTest()
