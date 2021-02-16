@@ -1,2 +1,2 @@
 # Araç Kiralama Sistemi
- target="_blank"> <img src="https://w7.pngwing.com/pngs/892/828/png-transparent-car-rental-taxi-renting-budget-rent-a-car-car-angle-text-logo.png" alt="Araç Kiralama Sistemi (Rent A Car System)" width="200" height="200"/>
+<img src="https://st2.depositphotos.com/2172301/6557/v/950/depositphotos_65575193-stock-illustration-vector-template-of-car-rental.jpg"  alt="Araç Kiralama Sistemi (Rent A Car System)" width="200" height="200"/>
