@@ -7,8 +7,8 @@
     [ModelYear]    INT           NULL,
     [Descriptions] NVARCHAR (50) NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC),
-    FOREIGN KEY ([ColorId]) REFERENCES [dbo].[Colors] ([Id]),
-    FOREIGN KEY ([BrandId]) REFERENCES [dbo].[Brands] ([Id])
+    FOREIGN KEY ([ColorId]) REFERENCES Colors([Id]),
+    FOREIGN KEY ([BrandId]) REFERENCES Brands([Id])
 );
 
 CREATE TABLE Colors (
