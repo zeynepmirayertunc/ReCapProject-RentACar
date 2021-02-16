@@ -12,12 +12,14 @@
  
  <p> 
  <a href="https://www.kodlama.io/" target="_blank"> 
-  <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/Zk7d1MdoSJ6cEShVbfd0" width="25" height="25"> Kodlama.io
+  <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/Zk7d1MdoSJ6cEShVbfd0" width="50" height="50"> Kodlama.io
   </a> &nbsp;
 
 
 -------------------------------------------------------------------------------------------
-## *Kullanılan IDE* 
+### *Kullanılan IDE* 
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Visual_Studio_Icon_2019.svg/1200px-Visual_Studio_Icon_2019.svg.png" width="50" height="50"> 
 Visual Studio 2019
+  </a> &nbsp;
 
