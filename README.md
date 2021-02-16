@@ -28,6 +28,8 @@ Visual Studio 2019
 
 ### *SQL*
 - Sql için gerekli tablolar örnekteki gibi oluşturulur. Detaylı tablo için ![](https://github.com/zeynepmirayertunc/ReCapProject/CarRentalProject.sql)
+
+
 ```sql
 CREATE TABLE (car)(
 ...
