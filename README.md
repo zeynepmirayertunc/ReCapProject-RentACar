@@ -16,9 +16,11 @@
 
 -------------------------------------------------------------------------------------------
 
-**Table of Contents**
+# Table of contents
 
-[TOCM]
-
-[TOC]
+- [Foo](#foo)
+  - [Bar](#bar)
+  - [Foobar](#foobar)
+- [Barfoo](#barfoo)
+  - [Barbar](#barbar)
 
