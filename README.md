@@ -30,8 +30,8 @@ Visual Studio 2019
 - Sql tablosu için --  [CarRentalProject.sql](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/CarRentalProject.sql)
 
 ### *Güncellemeler*
-- 16.02.2020 -- [WebAPI katmanı](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/WebAPI) kuruldu :heavy_check_mark:
-- 16.02.2020 -- [Business katmanındaki tüm servislerin](https://github.com/zeynepmirayertunc/ReCapProject/tree/master/Business/Abstract) [Api karşılığı](https://github.com/zeynepmirayertunc/ReCapProject/tree/master/WebAPI/Controllers) yazıldı :heavy_check_mark:
+- 16.02.2021 -- [WebAPI katmanı](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/WebAPI) kuruldu :heavy_check_mark:
+- 16.02.2021 -- [Business katmanındaki tüm servislerin](https://github.com/zeynepmirayertunc/ReCapProject/tree/master/Business/Abstract) [Api karşılığı](https://github.com/zeynepmirayertunc/ReCapProject/tree/master/WebAPI/Controllers) yazıldı :heavy_check_mark:
 
   
   
