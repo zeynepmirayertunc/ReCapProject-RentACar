@@ -9,9 +9,8 @@
 
 - This project was created as a Recap project for "Software Developer Training Camp" given by Engin Demirog on Kodlama.io, an online education platform. The project is a car rental system and the project language is Turkish.
 
-
-
-[![Kodlama.io]("https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/Zk7d1MdoSJ6cEShVbfd0")
+- [Kodlama.io]( <p align="left"> <a href="https://www.kodlama.io/" target="_blank"> <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/Zk7d1MdoSJ6cEShVbfd0"  width="100" height="100">)
+</p>
 
 -------------------------------------------------------------------------------------------
 
