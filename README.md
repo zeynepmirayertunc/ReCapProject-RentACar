@@ -4,9 +4,9 @@
 
 ![](https://img.shields.io/github/stars/zeynepmirayertunc/ReCapProject.svg) ![](https://img.shields.io/github/forks/zeynepmirayertunc/ReCapProject.svg) ![](https://img.shields.io/github/tag/zeynepmirayertunc/ReCapProject.svg) ![](https://img.shields.io/github/release/zeynepmirayertunc/ReCapProject.svg) ![](https://img.shields.io/github/issues/zeynepmirayertunc/ReCapProject.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
-###About
+### About
 
-<img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/Zk7d1MdoSJ6cEShVbfd0" alt="Kodlama.io" width="100" height="100"/> 
+<a href="https://www.kodlama.io/" target="_blank"> <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/Zk7d1MdoSJ6cEShVbfd0" alt="Kodlama.io" width="100" height="100"/> 
   
   
 Bu proje Kodloma.Io kapsamında Engin Demiroğ tarafından   
