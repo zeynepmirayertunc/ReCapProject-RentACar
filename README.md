@@ -8,8 +8,12 @@
 - Bu proje, bir online eğitim platformu olan Kodloma.io'da Engin Demiroğ tarafından verilen "Yazılım Geliştirici Yetiştirme Kampı" için Tekrar ve geliştirme projesi (ReCapProject) olması amacıyla oluşturulmuştur. Proje, bir araba kiralama sistemi olup proje dili Türkçedir. 
 
 - This project was created as a Recap project for "Software Developer Training Camp" given by Engin Demirog on Kodlama.io, an online education platform. The project is a car rental system and the project language is Turkish.
+ 
+ 
+ <p align="left"> <a href="https://www.kodlama.io/" target="_blank"> <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/Zk7d1MdoSJ6cEShVbfd0"  width="100" height="100"> </p>
 
-- [Kodlama.io] <p align="left"> <a href="https://www.kodlama.io/" target="_blank"> <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/Zk7d1MdoSJ6cEShVbfd0"  width="100" height="100"> </p>
+
+- [Kodlama.io](https://www.kodlama.io/)
 
 -------------------------------------------------------------------------------------------
 
