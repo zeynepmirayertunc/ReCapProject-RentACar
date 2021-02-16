@@ -27,7 +27,7 @@ Visual Studio 2019
 - Microsoft.EntityFrameworkCore.SqlServer (3.1.11) --> Core katmanında olacak şekilde
 
 ### *SQL*
-- Sql tablosu buradadır [SQL](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/CarRentalProject.sql)
+- Sql tablosu için -->  [CarRentalProject.sql](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/CarRentalProject.sql)
 
   
   
