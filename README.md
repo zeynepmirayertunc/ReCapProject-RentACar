@@ -27,18 +27,8 @@ Visual Studio 2019
 - Microsoft.EntityFrameworkCore.SqlServer (3.1.11) --> Core katmanında olacak şekilde
 
 ### *SQL*
-- Sql için gerekli tablolar örnekteki gibi oluşturulur. Detaylı tablo için ![](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/CarRentalProject.sql)
+- Sql tablosu buradadır [SQL](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/CarRentalProject.sql)
 
-
-```sql
-CREATE TABLE (car)(
-...
-);
-
-CREATE TABLE (brand)(
-...
-);
-```
   
   
 
