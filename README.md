@@ -29,6 +29,9 @@ Visual Studio 2019
 ### *SQL*
 - Sql tablosu için -->  [CarRentalProject.sql](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/CarRentalProject.sql)
 
+### *Güncellemeler*
+- 16.02.2020 -- WebAPI katmanı kuruldu :heavy_check_mark:
+
   
   
 
