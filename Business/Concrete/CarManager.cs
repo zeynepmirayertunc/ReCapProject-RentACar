@@ -21,16 +21,19 @@ namespace Business.Concrete
 
         public IResult Add(Car car)
         {
-            if (car.DailyPrice>0 && car.Name.Length>2)
+            if (car.DailyPrice>0)
             {
-                return new ErrorResult(Messages.InvalidTransaction);
+                if (car.Name.Length > 2)
+                {
+                    _carDal.Add(car);
+                    return new SuccessResult(Messages.CarAdded);
+                }
+                return new ErrorResult(Messages.CarNameError);
                 
+             
             }
-            _carDal.Add(car);
+            return new ErrorResult(Messages.DailyPriceError);
 
-            return new SuccessResult(Messages.CarAdded);
-            
-           
         }
 
         public IResult Delete(Car car)
@@ -66,13 +69,18 @@ namespace Business.Concrete
         }
         public IResult Update(Car car)
         {
-            if (car.DailyPrice>0 && car.Name.Length>2)
+            if (car.DailyPrice > 0)
             {
-                return new ErrorResult(Messages.InvalidTransaction);
-            }
-            _carDal.Update(car);
+                if (car.Name.Length > 2)
+                {
+                    _carDal.Add(car);
+                    return new SuccessResult(Messages.CarsUpdated);
+                }
+                return new ErrorResult(Messages.CarNameError);
 
-            return new SuccessResult(Messages.CarsUpdated);
+
+            }
+            return new ErrorResult(Messages.DailyPriceError);
 
         }
 
