@@ -19,7 +19,7 @@
 ### *Kullanılan IDE* 
 <p> 
  <a href="https://visualstudio.microsoft.com/tr/vs/" target="_blank"> 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Visual_Studio_Icon_2019.svg/1200px-Visual_Studio_Icon_2019.svg.png" width="50" height="50"> 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Visual_Studio_Icon_2019.svg/1200px-Visual_Studio_Icon_2019.svg.png" width="25" height="25"> 
 Visual Studio 2019
   </a> &nbsp;
  
