@@ -23,7 +23,7 @@
 Visual Studio 2019
   </a> &nbsp;
  
-### *Yüklenen Paketler*
+### *Kullanılan Paketler*
 - Microsoft.EntityFrameworkCore.SqlServer (3.1.11) --> Core katmanında olacak şekilde
 
 ### *SQL*
