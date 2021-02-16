@@ -5,7 +5,9 @@
 ![](https://img.shields.io/github/stars/zeynepmirayertunc/ReCapProject.svg) ![](https://img.shields.io/github/forks/zeynepmirayertunc/ReCapProject.svg) ![](https://img.shields.io/github/tag/zeynepmirayertunc/ReCapProject.svg) ![](https://img.shields.io/github/release/zeynepmirayertunc/ReCapProject.svg) ![](https://img.shields.io/github/issues/zeynepmirayertunc/ReCapProject.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
 ### About
-- Bu proje Kodloma.Io kapsamında Engin Demiroğ tarafından   
+- Bu proje, bir online eğitim platformu olan Kodloma.Io'da Engin Demiroğ tarafından verilen "Yazılım Geliştirici Yetiştirme Kampı" için Tekrar ve geliştirme projesi (ReCapProject) olması amacıyla oluşturulmuştur. Proje, bir araba kiralama sistemi olup proje dili Türkçedir. 
+
+-This project was created as a Recap project for "Software Developer Training Camp" given by Engin Demirog on Kodlama.io, an online education platform. The project is a car rental system and the project language is Turkish.
 
 <a href="https://www.kodlama.io/" target="_blank"> <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/Zk7d1MdoSJ6cEShVbfd0" alt="Kodlama.io" width="200" height="200"/> 
   
