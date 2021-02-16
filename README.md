@@ -24,10 +24,10 @@ Visual Studio 2019
   </a> &nbsp;
  
 ### *Kullanılan Paketler*
-- Microsoft.EntityFrameworkCore.SqlServer (3.1.11) --> Core katmanında olacak şekilde
+- Microsoft.EntityFrameworkCore.SqlServer (3.1.11) -- [Core katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) olacak şekilde
 
 ### *SQL*
-- Sql tablosu için -->  [CarRentalProject.sql](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/CarRentalProject.sql)
+- Sql tablosu için --  [CarRentalProject.sql](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/CarRentalProject.sql)
 
 ### *Güncellemeler*
 - 16.02.2020 -- [WebAPI katmanı](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/WebAPI) kuruldu :heavy_check_mark:
