@@ -15,20 +15,20 @@
   <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/Zk7d1MdoSJ6cEShVbfd0" width="50" height="50"> Kodlama.io
   </a> &nbsp;
 
-
+-----------------------
 ### *Kullanılan IDE* 
 <p> 
  <a href="https://visualstudio.microsoft.com/tr/vs/" target="_blank"> 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Visual_Studio_Icon_2019.svg/1200px-Visual_Studio_Icon_2019.svg.png" width="25" height="25"> 
 Visual Studio 2019
   </a> &nbsp;
- 
+----------------------------------------
 ### *Kullanılan Paketler*
 - Microsoft.EntityFrameworkCore.SqlServer (3.1.11) -- [Core katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) olacak şekilde
-
+---------------------------------------
 ### *SQL*
 - Sql tablosu için --  [CarRentalProject.sql](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/CarRentalProject.sql)
-
+-----------------------------------
 ### *Güncellemeler*
 - 16.02.2021 -- [WebAPI katmanı](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/WebAPI) kuruldu :heavy_check_mark:
 - 16.02.2021 -- [Business katmanındaki tüm servislerin](https://github.com/zeynepmirayertunc/ReCapProject/tree/master/Business/Abstract) [Api karşılığı](https://github.com/zeynepmirayertunc/ReCapProject/tree/master/WebAPI/Controllers) yazıldı :heavy_check_mark:
