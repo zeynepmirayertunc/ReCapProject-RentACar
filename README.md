@@ -22,13 +22,18 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Visual_Studio_Icon_2019.svg/1200px-Visual_Studio_Icon_2019.svg.png" width="25" height="25"> 
 Visual Studio 2019
   </a> &nbsp;
+ 
 ----------------------------------------
 ### *Kullanılan Paketler*
 - Microsoft.EntityFrameworkCore.SqlServer (3.1.11) -- [Core katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) olacak şekilde
+
+
 ---------------------------------------
 ### *SQL*
 - Sql tablosu için --  [CarRentalProject.sql](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/CarRentalProject.sql)
 -----------------------------------
+
+
 ### *Güncellemeler*
 - 16.02.2021 -- [WebAPI katmanı](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/WebAPI) kuruldu :heavy_check_mark:
 - 16.02.2021 -- [Business katmanındaki tüm servislerin](https://github.com/zeynepmirayertunc/ReCapProject/tree/master/Business/Abstract) [Api karşılığı](https://github.com/zeynepmirayertunc/ReCapProject/tree/master/WebAPI/Controllers) yazıldı :heavy_check_mark:
