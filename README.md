@@ -9,6 +9,10 @@
 
 - This project was created as a Recap project for "Software Developer Training Camp" given by [Engin Demirog](https://github.com/engindemirog) on Kodlama.io, an online education platform. The project is a car rental system and the project language is Turkish.
  
+  <p align="center">
+ <a href="güncellemeler">Güncellemeler</a> .
+ </p>
+ 
  
  <p> 
  <a href="https://www.kodlama.io/" target="_blank"> 
@@ -25,7 +29,7 @@ Visual Studio 2019
  
 ----------------------------------------
 ### *Kullanılan Paketler*
-- ''' Microsoft.EntityFrameworkCore.SqlServer (3.1.11) ''' -- [Core katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) olacak şekilde
+- Microsoft.EntityFrameworkCore.SqlServer (3.1.11) -- [Core katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) olacak şekilde
 - Autofac(6.1.0) -- [Business katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) ve [Core katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) olacak şekilde
 - Autofac.Extras.DynamicProxy(6.0.0) -- [Business katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) ve [Core katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) olacak şekilde
 - FluentValidation(9.5.1) -- [Business katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) ve [Core katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) olacak şekilde
