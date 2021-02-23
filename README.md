@@ -56,7 +56,7 @@ Colors
 
 
 <table>
-<tr><th>Cars</th><th>Colors</th></tr><th>Brands</th></tr>
+<tr><th>Cars</th><th>Colors</th></th>Brands</th></tr>
 <tr><td>
 
 | Name  | Data type  |
