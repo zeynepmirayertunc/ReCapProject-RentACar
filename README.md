@@ -39,7 +39,9 @@ Visual Studio 2019
 
 Car 
 
-| Name        | Data type  |                                                                                                                                                   |-----------------|--------------|
+| Name        | Data type  | 
+|
+|-----------------|--------------|
 |  Id    | INT  |
 |  Name  | NVARCHAR(50) |
 |  BrandId    | INT  |
