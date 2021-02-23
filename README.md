@@ -42,13 +42,16 @@ Car
 | Name        | Data type  
 |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  Id    | INT  |
-|  Name  | NVARCHAR(50) |
-|  BrandId    | INT  |
-|  ColorId    | INT  |
-|  DailyPrice  | DECIMAL |
-|  ModelYear    | INT  |
-|  Descriptions  | NVARCHAR(50) |
+
+|  Id    | INT  
+|  Name  | NVARCHAR(50) 
+|  BrandId    | INT  
+|  ColorId    | INT  
+|  DailyPrice  | DECIMAL 
+|  ModelYear    | INT  
+|  Descriptions  | NVARCHAR(50) 
+
+
 -----------------------------------
 
 
