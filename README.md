@@ -34,7 +34,19 @@ Visual Studio 2019
 
 ---------------------------------------
 ### *SQL*
-- Sql tablosu için --  [CarRentalProject.sql](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/CarRentalProject.sql)
+- Sql tablosu oluşturmak için --  [CarRentalProject.sql](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/CarRentalProject.sql)
+
+
+Car 
+| Name        | Data type                                                                                                                                                                                                                                                                                |
+|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  Id    | INT  |
+|  Name  | NVARCHAR(50) |
+|  BrandId    | INT  |
+|  ColorId    | INT  |
+|  DailyPrice  | DECIMAL |
+|  ModelYear    | INT  |
+|  Descriptions  | NVARCHAR(50) |
 -----------------------------------
 
 
