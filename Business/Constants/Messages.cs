@@ -34,8 +34,8 @@ namespace Business.Constants
         public static string BrandDeleted = "Mevcut marka silindi";
         public static string BrandUpdated = "Mevcut marka bilgisi güncellendi";
         public static string BrandsListed = "Mevcut araba markaları listelendi";
-        public static string DailyPriceError = "Uyarı!!!. Arabanın günlük fiyatı 0 dan büyük olmalıdır";
-        public static string CarNameError = "Uyarı!!! Arabanın ismi minimum 3 karekter olmalıdır";
+        public static string DailyPriceInvalid = "Uyarı!!!. Arabanın günlük fiyatı 0 dan büyük olmalıdır";
+        public static string CarNameInvalid = "Uyarı!!! Arabanın ismi minimum 2 karekter olmalıdır";
 
     }
 }
