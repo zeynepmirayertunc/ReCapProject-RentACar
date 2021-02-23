@@ -56,7 +56,7 @@ Colors
 
 
 <table>
-<tr><th>Car</th><th>Color</th></tr>
+<tr><th>Cars</th><th>Colors</th></tr><th>Brands</th>
 <tr><td>
 
 | Name  | Data type  |
@@ -76,6 +76,12 @@ Colors
 | Id      | INT    |
 | Name    | NVARCHAR(50)
 
+</td><td>
+ 
+| Name       | Data type  |  
+|------------|--------------|
+| Id      | INT    |
+| Name    | NVARCHAR(50) 
 
 </td></tr> </table>
 
