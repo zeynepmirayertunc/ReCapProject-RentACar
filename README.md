@@ -25,7 +25,7 @@ Visual Studio 2019
  
 ----------------------------------------
 ### *Kullanılan Paketler*
-- Microsoft.EntityFrameworkCore.SqlServer (3.1.11) -- [Core katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) olacak şekilde
+- ''' Microsoft.EntityFrameworkCore.SqlServer (3.1.11) ''' -- [Core katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) olacak şekilde
 - Autofac(6.1.0) -- [Business katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) ve [Core katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) olacak şekilde
 - Autofac.Extras.DynamicProxy(6.0.0) -- [Business katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) ve [Core katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) olacak şekilde
 - FluentValidation(9.5.1) -- [Business katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) ve [Core katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) olacak şekilde
