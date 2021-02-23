@@ -36,25 +36,6 @@ Visual Studio 2019
 ### *SQL*
 - Sql tablosu oluşturmak için --  [CarRentalProject.sql](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/CarRentalProject.sql)
 
-
-Car                                                                                  
-| Name       | Data type  |                                                                       
-|------------------|------------- |             
-| Id      | INT  |                 
-| Name    | NVARCHAR(50)  |                                                           
-| BrandId      | INT     |
-| ColorId      | INT   |
-| DailyPrice    | DECIMAL |
-| ModelYear      | INT |
-| Descriptions   | NVARCHAR(50) |
-
-Colors 
-| Name       | Data type  |  
-|------------------|--------------------------|
-| Id      | INT    |
-| Name    | NVARCHAR(50)
-
-
 <table>
 <tr><th>Cars</th><th>Colors</th><th>Brands</th></tr>
 <tr><td>
@@ -74,16 +55,49 @@ Colors
 | Name       | Data type  |  
 |------------|--------------|
 | Id      | INT    |
-| Name    | NVARCHAR(50)
+| Name    | NVARCHAR(50) |
 
 </td><td>
  
 | Name       | Data type  |  
 |------------|--------------|
 | Id      | INT    |
-| Name    | NVARCHAR(50) 
+| Name    | NVARCHAR(50) |
 
 </td></tr> </table>
+
+<table>
+<tr><th>Users</th><th>Customers</th><th>Rentals</th></tr>
+<tr><td>
+
+| Name  | Data type  |
+|-------|-------------|
+| Id      | INT  |                 
+| FirstName    | NVARCHAR(50)  |
+| LastName    | NVARCHAR(50)  |
+| Email    | NVARCHAR(100)  | 
+| Password   | NVARCHAR(16)  | 
+
+</td><td>
+ 
+| Name       | Data type  |  
+|------------|--------------|
+| UserId      | INT    |
+| CompanyName    | NVARCHAR(45) |
+
+</td><td>
+ 
+| Name       | Data type  |  
+|------------|--------------|
+| Id      | INT    |
+| CarId      | INT    |
+| CustomerId      | INT    |
+| RentDate     | DATETIME    |
+| ReturnDate    | DATETIME |
+
+</td></tr> </table>
+
+
 
 -----------------------------------
 
