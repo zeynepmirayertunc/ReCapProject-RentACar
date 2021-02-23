@@ -26,6 +26,10 @@ Visual Studio 2019
 ----------------------------------------
 ### *Kullanılan Paketler*
 - Microsoft.EntityFrameworkCore.SqlServer (3.1.11) -- [Core katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) olacak şekilde
+- Autofac(6.1.0) -- [Business katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) ve [Core katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) olacak şekilde
+- Autofac.Extras.DynamicProxy(6.0.0) -- [Business katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) ve [Core katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) olacak şekilde
+- FluentValidation(9.5.1) -- [Business katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) ve [Core katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) olacak şekilde
+- Autofac.Extensions.DependencyInjection(7.1.0) -- [Core katmanında](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/Core) olacak şekilde
 
 
 ---------------------------------------
@@ -37,6 +41,9 @@ Visual Studio 2019
 ### *Güncellemeler*
 - 16.02.2021 -- [WebAPI katmanı](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/WebAPI) kuruldu :heavy_check_mark:
 - 16.02.2021 -- [Business katmanındaki tüm servislerin](https://github.com/zeynepmirayertunc/ReCapProject/tree/master/Business/Abstract) [Api karşılığı](https://github.com/zeynepmirayertunc/ReCapProject/tree/master/WebAPI/Controllers) yazıldı :heavy_check_mark:
+- 23.02.2021 -- Autofac desteği eklendi :heavy_check_mark:
+- 23.02.2021 -- FluentValidation desteği eklendi :heavy_check_mark:
+- 23.02.2021 -- AOP desteği eklendi :heavy_check_mark: 
 
   
   
