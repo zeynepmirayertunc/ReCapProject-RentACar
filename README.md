@@ -37,18 +37,22 @@ Visual Studio 2019
 - Sql tablosu oluşturmak için --  [CarRentalProject.sql](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/CarRentalProject.sql)
 
 
-Car                                                             Colors
-| Name       | Data type  |                                     | Name       | Data type  |                                 
-|------------------|--------------------------|                 |------------------|--------------------------|
-| Id      | INT    |                                            | Id      | INT    |
-| Name    | NVARCHAR(50)                                        | Name    | NVARCHAR(50)
+Car                                                             
+| Name       | Data type  |                                                                    
+|------------------|--------------------------|                 
+| Id      | INT    |                                            
+| Name    | NVARCHAR(50)                                        
 | BrandId      | INT     |
 | ColorId      | INT   |
 | DailyPrice    | DECIMAL
 | ModelYear      | INT 
 | Descriptions   | NVARCHAR(50) 
 
-   
+Colors 
+| Name       | Data type  |  
+|------------------|--------------------------|
+| Id      | INT    |
+| Name    | NVARCHAR(50)
 
 -----------------------------------
 
