@@ -108,7 +108,28 @@ Visual Studio 2019
 - 23.02.2021 -- Autofac desteği eklendi :heavy_check_mark:
 - 23.02.2021 -- FluentValidation desteği eklendi :heavy_check_mark:
 - 23.02.2021 -- AOP desteği eklendi :heavy_check_mark: 
+- 26.02.2021 -- CarImages tablosu oluşturuldu :heavy_check_mark:
+- 26.02.2021 -- Api üzerinden [arabaya resim ekleyecek sistem](https://github.com/zeynepmirayertunc/ReCapProject/blob/master/WebAPI/Controllers/CarImagesController.cs) yazıldı :heavy_check_mark:
 
-  
-  
+![arabaeklendi](https://user-images.githubusercontent.com/69868488/109347202-d4225200-7883-11eb-98a8-adb780d61b46.png)
 
+
+- 26.02.2021 -- Resimler proje içerisindeki [klasördedir](https://github.com/zeynepmirayertunc/ReCapProject/tree/master/WebAPI/wwwroot/Images) :heavy_check_mark:
+- 26.02.2021 -- Bir arabanın en fazla 5 resmi olabilmesi şartı eklendi :heavy_check_mark:
+
+![uyarı](https://user-images.githubusercontent.com/69868488/109347342-1186df80-7884-11eb-8cae-c5ff39f55915.png)
+
+
+
+- 26.02.2021 -- Resmin eklendiği tarih sistem tarafından atanması işlemi gerçekleştirildi :heavy_check_mark:
+
+- 26.02.2021 -- Bir arabaya ait resimleri listeleme işlemi yapıldı :heavy_check_mark:
+
+![getimages](https://user-images.githubusercontent.com/69868488/109347374-25324600-7884-11eb-896c-fd7494027116.png)
+
+
+- 26.02.2021 -- Eğer bir arabaya ait resim yoksa, default bir resim gösterme işlemleri yazıldı :heavy_check_mark:
+
+![resimbulunamadı](https://user-images.githubusercontent.com/69868488/109347426-38451600-7884-11eb-9e03-28bf81e6bdb1.png)
+  
+ 
