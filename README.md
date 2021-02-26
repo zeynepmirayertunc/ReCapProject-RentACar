@@ -67,7 +67,7 @@ Visual Studio 2019
 </td></tr> </table>
 
 <table>
-<tr><th>Users</th><th>Customers</th><th>Rentals</th></tr>
+<tr><th>Users</th><th>Customers</th><th>Rentals</th></th>
 <tr><td>
 
 | Name  | Data type  |
@@ -95,7 +95,23 @@ Visual Studio 2019
 | RentDate     | DATETIME    |
 | ReturnDate    | DATETIME |
 
+
 </td></tr> </table>
+
+<table>
+<tr><th>CarImages</th></tr>
+<tr><td>
+  
+| Name       | Data type  |  
+|------------|--------------|
+| Id      | INT    |
+| CarId      | INT    |
+| ImagePath      | VARCHAR(max)    |
+| Date     | DATETIME    |
+
+
+</td></tr> </table>
+
 
 
 
@@ -121,9 +137,9 @@ Visual Studio 2019
 
 
 
-- 26.02.2021 -- Resmin eklendiği tarih sistem tarafından atanması işlemi gerçekleştirildi :heavy_check_mark:
+- 26.02.2021 -- Resmin eklendiği tarihin sistem tarafından atanması işlemi gerçekleştirildi :heavy_check_mark:
 
-- 26.02.2021 -- Bir arabaya ait resimleri listeleme işlemi yapıldı :heavy_check_mark:
+- 26.02.2021 -- Bir arabaya ait resimlerin listeleme işlemi yapıldı :heavy_check_mark:
 
 ![getimages](https://user-images.githubusercontent.com/69868488/109347374-25324600-7884-11eb-896c-fd7494027116.png)
 
