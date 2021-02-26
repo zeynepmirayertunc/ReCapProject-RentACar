@@ -59,7 +59,7 @@ create table Users(
  create table CarImages(
  [Id] INT IDENTITY (1,1) NOT NULL,
  [CarId] INT FOREIGN KEY REFERENCES Cars([Id]),
- [ImagePath] VARCHAR(255) NULL,
+ [ImagePath] NVARCHAR(max) NULL,
  [Date] DATETIME NOT NULL,
  PRIMARY KEY CLUSTERED ([Id] ASC),
  CONSTRAINT [FK_CarImg_Cars] FOREIGN KEY ([CarId]) REFERENCES Cars([Id])
