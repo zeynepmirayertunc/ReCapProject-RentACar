@@ -121,14 +121,14 @@ Visual Studio 2019
 
 
 
--Resmin eklendiği tarih sistem tarafından atanması işlemi gerçekleştirildi
+- 26.02.2021 -- Resmin eklendiği tarih sistem tarafından atanması işlemi gerçekleştirildi
 
--Bir arabaya ait resimleri listeleme
+- 26.02.2021 -- Bir arabaya ait resimleri listeleme
 
 ![getimages](https://user-images.githubusercontent.com/69868488/109347374-25324600-7884-11eb-896c-fd7494027116.png)
 
 
-Eğer bir arabaya ait resim yoksa, default bir resim gösterme işlemleri yazıldı :heavy_check_mark:
+- 26.02.2021 -- Eğer bir arabaya ait resim yoksa, default bir resim gösterme işlemleri yazıldı :heavy_check_mark:
 
 ![resimbulunamadı](https://user-images.githubusercontent.com/69868488/109347426-38451600-7884-11eb-9e03-28bf81e6bdb1.png)
   
