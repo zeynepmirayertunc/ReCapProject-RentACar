@@ -115,15 +115,15 @@ Visual Studio 2019
 
 
 - 26.02.2021 -- Resimler proje içerisindeki [klasördedir](https://github.com/zeynepmirayertunc/ReCapProject/tree/master/WebAPI/wwwroot/Images) :heavy_check_mark:
-- 26.02.2021 -- Bir arabanın en fazla 5 resmi olabilmesi
+- 26.02.2021 -- Bir arabanın en fazla 5 resmi olabilmesi şartı eklendi :heavy_check_mark:
 
 ![uyarı](https://user-images.githubusercontent.com/69868488/109347342-1186df80-7884-11eb-8cae-c5ff39f55915.png)
 
 
 
-- 26.02.2021 -- Resmin eklendiği tarih sistem tarafından atanması işlemi gerçekleştirildi
+- 26.02.2021 -- Resmin eklendiği tarih sistem tarafından atanması işlemi gerçekleştirildi :heavy_check_mark:
 
-- 26.02.2021 -- Bir arabaya ait resimleri listeleme
+- 26.02.2021 -- Bir arabaya ait resimleri listeleme işlemi yapıldı :heavy_check_mark:
 
 ![getimages](https://user-images.githubusercontent.com/69868488/109347374-25324600-7884-11eb-896c-fd7494027116.png)
 
