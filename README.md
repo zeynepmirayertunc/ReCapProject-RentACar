@@ -96,6 +96,8 @@ Visual Studio 2019
 | ReturnDate    | DATETIME |
 
 
+</td></tr> </table>
+
 <table>
 <tr><th>CarImages</th></tr>
 <tr><td>
