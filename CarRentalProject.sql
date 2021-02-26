@@ -55,3 +55,13 @@ create table Users(
  FOREIGN KEY ([CustomerId]) REFERENCES Customers([UserId]),
 
  );
+
+ create table CarImages(
+ [Id] INT IDENTITY (1,1) NOT NULL,
+ [CarId] INT FOREIGN KEY REFERENCES Cars([Id]),
+ [ImagePath] VARCHAR(255) NULL,
+ [Date] DATETIME NOT NULL,
+ PRIMARY KEY CLUSTERED ([Id] ASC),
+ 
+);
+

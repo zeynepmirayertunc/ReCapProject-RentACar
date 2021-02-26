@@ -36,6 +36,11 @@ namespace Business.Constants
         public static string BrandsListed = "Mevcut araba markaları listelendi";
         public static string DailyPriceInvalid = "Uyarı!!!. Arabanın günlük fiyatı 0 dan büyük olmalıdır";
         public static string CarNameInvalid = "Uyarı!!! Arabanın ismi minimum 2 karekter olmalıdır";
-
+        internal static string CarImageCountError="Uyarı!!! Bir araba için maksimum 5 resim yüklenebilir.";
+        internal static string CarImagesAdded="Araba fotoğrafı eklendi";
+        internal static string CarImagesListed="Araba fotoğrafları listelendi";
+        internal static string CarImagesUpdated="Araba fotoğrafları güncellendi";
+        internal static string CarImageDeleted="Araba fotoğrafı silindi";
+        internal static string CarImagesNotFound="Araba resmi sistemde bulunmamaktadır";
     }
 }
