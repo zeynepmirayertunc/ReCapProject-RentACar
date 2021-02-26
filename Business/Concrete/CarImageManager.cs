@@ -12,7 +12,9 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
+
 
 namespace Business.Concrete
 {
@@ -82,11 +84,17 @@ namespace Business.Concrete
        
         public IDataResult<List<CarImage>> GetCarImages(int carId)
         {
-            var path = Path.GetExtension(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).FullName + @"DefaultImage / default.jfif");
+
+            //var outPutDirectory = Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase);
+
+
+            var path = Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).FullName;
+            var logoimage = Path.Combine(path, "DefaultImage\\defaultlogo.jfif");
+
             var result = _carImageDal.GetAll(ci => ci.CarId == carId).Any();
             if (!result)
             {
-                List<CarImage> carImages = new List<CarImage> { new CarImage { CarId = carId, ImagePath = path, Date = DateTime.Now } };
+                List<CarImage> carImages = new List<CarImage> { new CarImage { CarId = carId, ImagePath = logoimage, Date = DateTime.Now } };
                 return new ErrorDataResult<List<CarImage>>(carImages,Messages.CarImagesNotFound);
             }
             return new SuccessDataResult<List<CarImage>>(_carImageDal.GetAll(ci => ci.CarId == carId));
