@@ -97,6 +97,21 @@ Visual Studio 2019
 
 </td></tr> </table>
 
+<table>
+<tr><th>CarImages</th></tr>
+<tr><td>
+  
+| Name       | Data type  |  
+|------------|--------------|
+| Id      | INT    |
+| CarId      | INT    |
+| ImagePath      | VARCHAR(max)    |
+| Date     | DATETIME    |
+
+
+</td></tr> </table>
+
+
 
 
 -----------------------------------
