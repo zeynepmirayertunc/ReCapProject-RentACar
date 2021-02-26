@@ -62,6 +62,7 @@ create table Users(
  [ImagePath] VARCHAR(255) NULL,
  [Date] DATETIME NOT NULL,
  PRIMARY KEY CLUSTERED ([Id] ASC),
- 
+ CONSTRAINT [FK_CarImg_Cars] FOREIGN KEY ([CarId]) REFERENCES Cars([Id])
 );
+ 
 
