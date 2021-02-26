@@ -67,7 +67,7 @@ Visual Studio 2019
 </td></tr> </table>
 
 <table>
-<tr><th>Users</th><th>Customers</th><th>Rentals</th></tr>
+<tr><th>Users</th><th>Customers</th><th>Rentals</th></th>CarImages</th><th>
 <tr><td>
 
 | Name  | Data type  |
@@ -94,6 +94,15 @@ Visual Studio 2019
 | CustomerId      | INT    |
 | RentDate     | DATETIME    |
 | ReturnDate    | DATETIME |
+
+</td><td>
+
+| Name       | Data type  |  
+|------------|--------------|
+| Id      | INT    |
+| CarId      | INT    |
+| ImagePath      | VARCHAR(max)    |
+| Date     | DATETIME    |
 
 </td></tr> </table>
 
