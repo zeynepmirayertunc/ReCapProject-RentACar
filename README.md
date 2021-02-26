@@ -115,6 +115,11 @@ Visual Studio 2019
 
 ![arabaeklendi](https://user-images.githubusercontent.com/69868488/109347202-d4225200-7883-11eb-98a8-adb780d61b46.png)
 
+![uyarı](https://user-images.githubusercontent.com/69868488/109347342-1186df80-7884-11eb-8cae-c5ff39f55915.png)
+
+![getimages](https://user-images.githubusercontent.com/69868488/109347374-25324600-7884-11eb-896c-fd7494027116.png)
+
+![resimbulunamadı](https://user-images.githubusercontent.com/69868488/109347426-38451600-7884-11eb-9e03-28bf81e6bdb1.png)
   
   
 
