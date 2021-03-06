@@ -148,4 +148,7 @@ Visual Studio 2019
 
 ![resimbulunamadı](https://user-images.githubusercontent.com/69868488/109347426-38451600-7884-11eb-9e03-28bf81e6bdb1.png)
   
+  
+- 03.03.2021 --  JWT entegrasyonu gerçekleştirildi :heavy_check_mark:
+- 06.03.2021 -- [Cache, Transaction ve Performance](https://github.com/zeynepmirayertunc/ReCapProject-RentACar/tree/master/Core/Aspects/Autofac) aspectleri eklendi :heavy_check_mark:
  
