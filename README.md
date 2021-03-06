@@ -101,7 +101,7 @@ Visual Studio 2019
 </td></tr> </table>
 
 <table>
-<tr><th>CarImages</th></tr>
+<tr><th>CarImages</th><th>OperationClaims</th><th>UserOperationClaims</th></th>
 <tr><td>
   
 | Name       | Data type  |  
@@ -111,6 +111,20 @@ Visual Studio 2019
 | ImagePath      | VARCHAR(max)    |
 | Date     | DATETIME    |
 
+</td><td>
+ 
+| Name       | Data type  |  
+|------------|--------------|
+| Id      | INT    |
+| Name    | VARCHAR(250) |
+
+</td><td>
+ 
+| Name       | Data type  |  
+|------------|--------------|
+| Id      | INT    |
+| UserId      | INT    |
+| OperationClaimId      | INT    |
 
 </td></tr> </table>
 
