@@ -76,7 +76,9 @@ Visual Studio 2019
 | FirstName    | NVARCHAR(50)  |
 | LastName    | NVARCHAR(50)  |
 | Email    | NVARCHAR(100)  | 
-| Password   | NVARCHAR(16)  | 
+| PasswordSalt   | VARBINARY(500)  | 
+| PasswordhASH   | VARBINARY(500)  | 
+| STATUS   | BIT  | 
 
 </td><td>
  
@@ -99,7 +101,7 @@ Visual Studio 2019
 </td></tr> </table>
 
 <table>
-<tr><th>CarImages</th></tr>
+<tr><th>CarImages</th><th>OperationClaims</th><th>UserOperationClaims</th></th>
 <tr><td>
   
 | Name       | Data type  |  
@@ -109,6 +111,20 @@ Visual Studio 2019
 | ImagePath      | VARCHAR(max)    |
 | Date     | DATETIME    |
 
+</td><td>
+ 
+| Name       | Data type  |  
+|------------|--------------|
+| Id      | INT    |
+| Name    | VARCHAR(250) |
+
+</td><td>
+ 
+| Name       | Data type  |  
+|------------|--------------|
+| Id      | INT    |
+| UserId      | INT    |
+| OperationClaimId      | INT    |
 
 </td></tr> </table>
 
@@ -148,4 +164,7 @@ Visual Studio 2019
 
 ![resimbulunamadı](https://user-images.githubusercontent.com/69868488/109347426-38451600-7884-11eb-9e03-28bf81e6bdb1.png)
   
+  
+- 03.03.2021 --  JWT entegrasyonu gerçekleştirildi :heavy_check_mark:
+- 06.03.2021 -- [Cache, Transaction ve Performance](https://github.com/zeynepmirayertunc/ReCapProject-RentACar/tree/master/Core/Aspects/Autofac) aspectleri eklendi :heavy_check_mark:
  
