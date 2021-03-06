@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Core.Entities.Concrete;
+using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Business.Constants
@@ -36,11 +38,18 @@ namespace Business.Constants
         public static string BrandsListed = "Mevcut araba markaları listelendi";
         public static string DailyPriceInvalid = "Uyarı!!!. Arabanın günlük fiyatı 0 dan büyük olmalıdır";
         public static string CarNameInvalid = "Uyarı!!! Arabanın ismi minimum 2 karekter olmalıdır";
-        internal static string CarImageCountError="Uyarı!!! Bir araba için maksimum 5 resim yüklenebilir.";
-        internal static string CarImagesAdded="Araba fotoğrafı eklendi";
-        internal static string CarImagesListed="Araba fotoğrafları listelendi";
-        internal static string CarImagesUpdated="Araba fotoğrafları güncellendi";
-        internal static string CarImageDeleted="Araba fotoğrafı silindi";
-        internal static string CarImagesNotFound="Araba resmi sistemde bulunmamaktadır";
+        public static string CarImageCountError = "Uyarı!!! Bir araba için maksimum 5 resim yüklenebilir.";
+        public static string CarImagesAdded = "Araba fotoğrafı eklendi";
+        public static string CarImagesListed = "Araba fotoğrafları listelendi";
+        public static string CarImagesUpdated = "Araba fotoğrafları güncellendi";
+        public static string CarImageDeleted = "Araba fotoğrafı silindi";
+        public static string CarImagesNotFound = "Araba resmi sistemde bulunmamaktadır";
+        public static string AuthorizationDenied = "Yetkilendirme Reddedildi";
+        public static string UserRegistered = " Kayıt oldu";
+        public static string UserNotFound="Kullanıcı bulunamadı";
+        public static string PasswordError="Parola Hatası";
+        public static string SuccessfulLogin="Başarılı giriş";
+        public static string UserAlreadyExists="Kullanıcı kayıtlı";
+        public static string AccessTokenCreated= "Access Token Oluşturuldu";
     }
 }

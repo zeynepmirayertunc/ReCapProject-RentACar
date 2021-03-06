@@ -1,7 +1,9 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
-using Core.Aspects.Autofac;
+using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Business;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
@@ -27,8 +29,9 @@ namespace Business.Concrete
             _carImageDal = carImageDal;
         }
 
-
+        [SecuredOperation("carImage.add,admin")]
         [ValidationAspect(typeof(CarImageValidator))]
+        [CacheRemoveAspect("ICarImageService.Get")]
         public IResult Add(IFormFile formFile, CarImage carImage)
         {
             IResult result = BusinessRules.Run(CheckIfCarImagesCount(carImage.CarId));
@@ -58,6 +61,9 @@ namespace Business.Concrete
             return new SuccessDataResult<CarImage>(_carImageDal.Get(ci => ci.CarId == carId));
         }
 
+        [SecuredOperation("carImage.add,admin")]
+        [ValidationAspect(typeof(CarImageValidator))]
+        [CacheRemoveAspect("ICarImageService.Get")]
         public IResult Update(CarImage carImage)
         {
             IResult result = BusinessRules.Run(CheckIfCarImagesCount(carImage.CarId));
