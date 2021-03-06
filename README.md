@@ -76,7 +76,9 @@ Visual Studio 2019
 | FirstName    | NVARCHAR(50)  |
 | LastName    | NVARCHAR(50)  |
 | Email    | NVARCHAR(100)  | 
-| Password   | NVARCHAR(16)  | 
+| PasswordSalt   | VARBINARY(500)  | 
+| PasswordhASH   | VARBINARY(500)  | 
+| STATUS   | BIT  | 
 
 </td><td>
  
