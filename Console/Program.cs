@@ -79,7 +79,7 @@ namespace ConsoleUI
             {
                 foreach (var car in result.Data)
                 {
-                    Console.WriteLine("{1} brand {2} color {0} -- price: {3}", car.CarName, car.BrandName, car.ColorName,
+                    Console.WriteLine("{1} brand {2} color {0} -- price: {3}", car.Name, car.BrandName, car.ColorName,
                         car.DailyPrice);
                 }
             }
