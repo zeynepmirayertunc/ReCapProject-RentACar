@@ -16,99 +16,54 @@ namespace WebAPI.Controllers
     [ApiController]
     public class CarImagesController : ControllerBase
     {
-        public static IWebHostEnvironment _environment;
+        
         private readonly ICarImageService _carImageService;
 
-        public CarImagesController(IWebHostEnvironment environment, ICarImageService carImageService)
+        public CarImagesController( ICarImageService carImageService)
         {
-            _environment = environment;
+            
             _carImageService = carImageService;
         }
 
 
-        [HttpGet("getall")]
-        public IActionResult GetAll()
-        {
-            var result = _carImageService.GetAll();
-            if (result.Success)
-            {
-                return Ok(result);
-            }
-            return BadRequest(result);
-
-        }
-
-        [HttpGet("getimages")]
-        public IActionResult GetImages(int id)
-        {
-            var result = _carImageService.GetCarImages(id);
-            if (result.Success)
-            {
-                return Ok(result);
-
-            }
-            return BadRequest(result);
-        }
-        
-
-
         [HttpPost("add")]
-        public IActionResult Add([FromForm(Name = ("file"))] IFormFile file, [FromForm] CarImage carImage)
+        public IActionResult Add([FromForm] CarImageDetailDto carImagesDto)
         {
-            string path = _environment.WebRootPath + "\\Images\\";
-            var GuidPath = "Image"+"_"+
-                DateTime.Now.ToString("yyyyMMddHHmmss")+"_"+
-                Guid.NewGuid().ToString()+
-                Path.GetExtension(file.FileName);
-
-            if (!Directory.Exists(path))
-            {
-                Directory.CreateDirectory(path);
-            }
-            using (FileStream fileStream = System.IO.File.Create(path + GuidPath))
-            {
-                file.CopyTo(fileStream);
-                fileStream.Flush();
-            }
-            
-
-            var result = _carImageService.Add(file,new CarImage
-            {
-                CarId = carImage.CarId,
-                Date = DateTime.Now,
-                ImagePath = GuidPath
-            });
-
-            if (result.Success)
-            {
-                return Ok(result);
-            }
-            return BadRequest(result);
-        }
-
-        [HttpPost("delete")]
-
-        public IActionResult Delete(CarImage carImage)
-        {
-
-            var result = _carImageService.Delete(carImage);
-            if (result.Success)
-            {
-                return Ok(result);
-            }
-            return BadRequest(result);
-
+            var result = _carImageService.Add(carImagesDto);
+            if (!result.Success) return BadRequest(result);
+            return Ok(result);
         }
 
         [HttpPost("update")]
-        public IActionResult Update([FromForm(Name = ("file"))] IFormFile file, [FromForm] CarImage carImage)
+        public IActionResult Update([FromForm] CarImageDetailDto carImagesDto)
         {
-            var result = _carImageService.Update(carImage);
-            if (result.Success)
-            {
-                return Ok(result);
-            }
-            return BadRequest(result);
+            var result = _carImageService.Update(carImagesDto);
+            if (!result.Success) return BadRequest(result);
+            return Ok(result);
+        }
+
+        [HttpPost("delete")]
+        public IActionResult Delete(CarImageDetailDto carImagesDto)
+        {
+            var result = _carImageService.Delete(carImagesDto);
+            if (!result.Success) return BadRequest(result);
+            return Ok(result);
+        }
+
+        [HttpGet("getbycarimages")]
+        public IActionResult GetById(int carId)
+        {
+            var result = _carImageService.GetByCarImages(carId);
+            if (!result.Success) return BadRequest(result);
+            return Ok(result);
+        }
+
+        [HttpGet("getlist")]
+        public IActionResult GetList()
+        {
+            var result = _carImageService.GetAll();
+            if (!result.Success) return BadRequest(result);
+            return Ok(result);
         }
 
     }
