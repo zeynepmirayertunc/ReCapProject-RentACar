@@ -84,6 +84,7 @@ Visual Studio 2019
  
 | Name       | Data type  |  
 |------------|--------------|
+| Id      | INT    |
 | UserId      | INT    |
 | CompanyName    | NVARCHAR(45) |
 
