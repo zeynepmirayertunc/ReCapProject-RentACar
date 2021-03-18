@@ -36,9 +36,11 @@ CREATE TABLE [dbo].[Users] (
 );
 
 CREATE TABLE [dbo].[Customers] (
-    [UserId]      INT          IDENTITY (1, 1) NOT NULL,
-    [CompanyName] VARCHAR (45) NULL,
-    PRIMARY KEY CLUSTERED ([UserId] ASC)
+    [Id]          INT          IDENTITY (1, 1) NOT NULL,
+    [UserId]      INT          NOT NULL,
+    [CompanyName] VARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK_Customers_Users] FOREIGN KEY ([UserId]) REFERENCES [dbo].[Users] ([Id]) ON DELETE CASCADE ON UPDATE CASCADE 
 );
 
 CREATE TABLE [dbo].[Rentals] (
@@ -49,7 +51,7 @@ CREATE TABLE [dbo].[Rentals] (
     [ReturnDate] DATETIME NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC),
     FOREIGN KEY ([CarId]) REFERENCES [dbo].[Cars] ([Id]),
-    FOREIGN KEY ([CustomerId]) REFERENCES [dbo].[Customers] ([UserId])
+
 );
 
 CREATE TABLE [dbo].[CarImages] (
