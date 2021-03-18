@@ -10,36 +10,37 @@ using System.Linq.Expressions;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfRentalDal:EfEntityRepositoryBase<Rental, CarContext>,IRentalDal
+    public class EfRentalDal : EfEntityRepositoryBase<Rental, CarContext>, IRentalDal
     {
-        public List<RentalDetailDto> GetRentalDetails(Expression<Func<Rental, bool>> filter = null)
+        public List<RentalDetailDto> GetRentalDetails()
         {
+
             using (CarContext context = new CarContext())
             {
-
-                var result = from r in context.Rentals
-                             join u in context.Users
-                             on r.CustomerId equals u.Id
-                             join c in context.Cars
-                             on r.CarId equals c.Id
-                             join b in context.Brands
-                             on c.BrandId equals b.Id
+                var result = from rental in context.Rentals
+                             join car in context.Cars
+                             on rental.CarId equals car.Id
+                             join color in context.Colors
+                             on car.ColorId equals color.Id
+                             join brand in context.Brands
+                             on car.BrandId equals brand.Id
+                             join user in context.Users
+                             on rental.CustomerId equals user.Id
                              select new RentalDetailDto
                              {
-                                 Id = r.Id,
-                                 FirstName = u.FirstName,
-                                 LastName = u.LastName,
-                                 BrandName = b.Name,
-                                 RentDate = r.RentDate,
-                                 ReturnDate = r.ReturnDate,
+                                 Id = rental.Id,
+                                 BrandName = brand.Name,
+                                 Name = user.FirstName + " " + user.LastName,
+                                 RentDate = rental.RentDate,
+                                 ReturnDate = rental.ReturnDate
                              };
-                             return result.ToList();
-
-           
-
+                return result.ToList();
 
             }
-        }
 
-    }
+
+
+        }
+    }   
+
 }
